@@ -1,0 +1,15 @@
+train: ../train_data_cars/images/train/  # train images (relative to 'path') 128 images
+val: ../train_data_cars/images/val/  # val images (relative to 'path') 128 images
+test:  # test images (optional)
+
+nc: 4  # number of classes
+
+# Classes
+names:
+  0: wheel
+  1: door
+  2: light
+  3: window
+  4: hood
+  5: grill
+ 
